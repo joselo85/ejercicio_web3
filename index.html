@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="https://lh3.googleusercontent.com/proxy/Jx91TRexJNINTV6E7KrPSq7ZEG-ZQ8othshdMDibtPsF9X2cDRMThVyvzoS285gPFo8qaJI6vuBCijxv7Czsth4haqV-Dt3pUanbW8yy_PdM2nFKdK6GpjQ=s0-d" alt="Inc arquitectura y diseño" width="40" height="34" class="d-inline-block align-text-top"> phd Arq & Diseño</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>              
+                </ul>                
+              </div>
+            </div>
+          </nav>
+          <div>
+              <div class="container">
+                <img class="img-fluid" src="https://cdn.pixabay.com/photo/2017/01/01/11/19/interior-1944348_960_720.jpg" alt="">
+                <div class="text-box">
+                    <h1>Diseñando Espacios</h1>
+                    <p class="text">para tu vida</p>
+                </div>                
+              </div>
+          </div>          
+    </header>
+    <main>
+        <section id="proyectos">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="col">
+                        <h3>Proyectos</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_960_720.jpg" class="card-img-top" alt="casa grande">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim tenetur eos iste officiis beatae asperiores nostrum in nobis fuga! Harum earum quaerat dolor sequi accusamus. Dolorem iste deleniti voluptate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_960_720.jpg" class="card-img-top" alt="duplex playa">
+                            <div class="card-body">
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laboriosam libero similique sunt quam atque nobis repellendus magni iure ducimus eum suscipit hic nisi soluta earum debitis delectus, animi laborum?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://cdn.pixabay.com/photo/2016/09/02/22/36/kitchen-1640439_960_720.jpg" class="card-img-top" alt="remodelacion cocina">
+                            <div class="card-body">
+                              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex nemo optio laudantium sapiente. Delectus, quibusdam voluptatum a illo iste molestias, nostrum exercitationem quas esse distinctio quidem culpa corporis placeat illum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <div class="row section-title">
+                    <div class="col">
+                        <h3>Contactanos!</h3>
+                    </div>                    
+                </div>
+                <form action="submit">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo" required>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" placeholder="nombre@ejemplo.com" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                              <label for="consulta" class="form-label"></label>
+                              <div class="input-group">
+                                  <span class="input-group-text">Escribí tu consulta aquí</span>
+                                  <textarea id="consulta" class="form-control" aria-label="With textarea" placeholder="Opcional"></textarea>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">        
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <input class="btn btn-primary" type="submit" value="Enviar Consulta">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <a class="navbar-brand" href="#"><img src="https://lh3.googleusercontent.com/proxy/Jx91TRexJNINTV6E7KrPSq7ZEG-ZQ8othshdMDibtPsF9X2cDRMThVyvzoS285gPFo8qaJI6vuBCijxv7Czsth4haqV-Dt3pUanbW8yy_PdM2nFKdK6GpjQ=s0-d" alt="Inc arquitectura y diseño" width="40" height="34" class="d-inline-block align-text-top"> phd Arq & Diseño</a>
+                    <p>Copyright 2021</p>
+                </div>
+                <div class="col-4 contact-icons">
+                    
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                        
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
