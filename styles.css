@@ -49,6 +49,9 @@ footer {
     color: white;
     padding: 40px 0;
 }
+.footer-brand {
+    color: #d35400;
+}
 .contact-icons {
     text-align: right;
     font-size: 28px;
